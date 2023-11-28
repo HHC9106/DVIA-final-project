@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jounalist Kiiled</title>
+    <script src='https://d3js.org/d3.v7.min.js'></script>
+    <script src="https://unpkg.com/d3-sankey@0.12.3/dist/d3-sankey.min.js">
+    </script>
+
+
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css' rel='stylesheet' />
+
+    <link rel="stylesheet" href="style/global.css" />
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="linechart"></div>
+        <div id="sankey"></div>
+        <div id='map'>
+            <div id="map-legend">
+            <div class="map-legend-item">
+                <div class="map-legend-color" style="background-color: #ffffff;"></div>
+                <div class="map-legend-text">80 and above</div>
+            </div>
+            <div class="map-legend-item">
+                <div class="map-legend-color" style="background-color: #fff8e8;"></div>
+                <div class="map-legend-text">70 - 80</div>
+            </div>
+            <div class="map-legend-item">
+                <div class="map-legend-color" style="background-color: #fcd581;"></div>
+                <div class="map-legend-text">60 - 70</div>
+            </div>
+            <div class="map-legend-item">
+              <div class="map-legend-color" style="background-color: #d52941;"></div>
+              <div class="map-legend-text">40 - 60</div>
+            </div>
+            <div class="map-legend-item">
+                <div class="map-legend-color" style="background-color: #720026;"></div>
+                <div class="map-legend-text">0 - 40</div>
+            </div>
+          </div>
+        </div>
+        
+       
+
+    </div>
+    <script src="sankey.js" type="module" async></script>
+    <script src="linechart.js" type="module" async></script>
+    <script src="worldmap.js" type="module" async></script>
+
+
+
+</body>
+
+</html>

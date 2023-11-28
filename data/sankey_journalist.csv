@@ -1,0 +1,89 @@
+,source,target,value
+0,Iraq,Murder,112
+1,Syria,Crossfire,103
+2,Philippines,Murder,94
+3,Iraq,Crossfire,65
+4,Mexico,Murder,61
+5,Algeria,Murder,58
+6,Somalia,Murder,48
+7,Colombia,Murder,48
+8,India,Murder,42
+9,Brazil,Murder,42
+10,Russia,Murder,39
+11,Israel and the Occupied Palestinian Territory,Dangerous Assignment,37
+12,Pakistan,Murder,37
+13,Afghanistan,Murder,30
+14,Pakistan,Dangerous Assignment,24
+15,Syria,Murder,23
+16,India,Dangerous Assignment,16
+17,Ukraine,Crossfire,14
+18,Israel and the Occupied Palestinian Territory,Crossfire,14
+19,Somalia,Crossfire,14
+20,Afghanistan,Crossfire,13
+21,Afghanistan,Dangerous Assignment,13
+22,Iraq,Dangerous Assignment,13
+23,Russia,Crossfire,12
+24,Somalia,Dangerous Assignment,11
+25,Russia,Dangerous Assignment,8
+26,Syria,Dangerous Assignment,8
+27,Ukraine,Murder,8
+28,Honduras,Murder,8
+29,Syria,Unknown,6
+30,Ukraine,Dangerous Assignment,6
+31,Israel and the Occupied Palestinian Territory,Murder,4
+32,Pakistan,Crossfire,3
+33,Colombia,Dangerous Assignment,3
+34,Colombia,Crossfire,3
+35,Mexico,Dangerous Assignment,3
+36,Philippines,Dangerous Assignment,2
+37,Brazil,Dangerous Assignment,2
+38,Algeria,Dangerous Assignment,2
+39,India,Crossfire,1
+40,Murder,Political Group,222
+41,Crossfire,Military Officials,138
+42,Murder,Criminal Group,115
+43,Murder,Government Officials,113
+44,Crossfire,Political Group,71
+45,Dangerous Assignment,Political Group,60
+46,Dangerous Assignment,Military Officials,43
+47,Murder,Paramilitary Group,18
+48,Murder,Military Officials,16
+49,Murder,Unknown,12
+50,Murder,Local Residents,12
+51,Dangerous Assignment,Unknown Fire,8
+52,Dangerous Assignment,Government Officials,8
+53,Murder,"Government Officials,Criminal Group",5
+54,Dangerous Assignment,Paramilitary Group,5
+55,Murder,Mob Violence,5
+56,Murder,"Criminal Group,Government Officials",5
+57,Dangerous Assignment,Local Residents,3
+58,Dangerous Assignment,Criminal Group,3
+59,Crossfire,"Military Officials, Political Group",3
+60,Unknown,Military Officials,3
+61,Murder,"Criminal Group,Local Residents",2
+62,Murder,"Criminal Group, Government Officials",2
+63,Crossfire,Paramilitary Group,2
+64,Murder,"Criminal Group, Local Residents",1
+65,Unknown,"Government Officials,Military Officials",1
+66,Unknown,Government Officials,1
+67,Murder,Unknown Fire,1
+68,Murder,"Political Group,Paramilitary Group",1
+69,Crossfire,"Political Group,Paramilitary Group",1
+70,Murder,"Paramilitary Group, Political Group",1
+71,Dangerous Assignment,"Criminal Group, Mob Violence",1
+72,Dangerous Assignment,"Government Officials,Political Group",1
+73,Murder,"Military Officials, Political Group",1
+74,Dangerous Assignment,"Local Residents,Government Officials",1
+75,Murder,"Local Residents,Government Officials",1
+76,Dangerous Assignment,"Local Residents,Military Officials",1
+77,Dangerous Assignment,"Military Officials,Paramilitary Group",1
+78,Murder,"Government Officials, Paramilitary Group",1
+79,Murder,"Government Officials, Military Officials",1
+80,Murder,"Government Officials, Local Residents",1
+81,Dangerous Assignment,Mob Violence,1
+82,Murder,"Criminal Group,Political Group,Government Officials",1
+83,Murder,"Criminal Group,Political Group",1
+84,Murder,"Criminal Group,Paramilitary Group",1
+85,Murder,"Criminal Group,Military Officials",1
+86,Crossfire,"Local Residents, Political Group",1
+87,Crossfire,Criminal Group,1

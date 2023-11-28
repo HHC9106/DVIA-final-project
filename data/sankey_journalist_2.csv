@@ -1,0 +1,161 @@
+,source,target,value
+0,Murder,Political Group,222
+1,Crossfire,Military Officials,138
+2,Murder,Criminal Group,115
+3,Murder,Government Officials,113
+4,Crossfire,Political Group,71
+5,Dangerous Assignment,Political Group,60
+6,Dangerous Assignment,Military Officials,43
+7,Murder,Paramilitary Group,18
+8,Murder,Military Officials,16
+9,Murder,Unknown,12
+10,Murder,Local Residents,12
+11,Dangerous Assignment,Unknown Fire,8
+12,Dangerous Assignment,Government Officials,8
+13,Murder,"Government Officials,Criminal Group",5
+14,Dangerous Assignment,Paramilitary Group,5
+15,Murder,Mob Violence,5
+16,Murder,"Criminal Group,Government Officials",5
+17,Dangerous Assignment,Local Residents,3
+18,Dangerous Assignment,Criminal Group,3
+19,Crossfire,"Military Officials, Political Group",3
+20,Unknown,Military Officials,3
+21,Murder,"Criminal Group,Local Residents",2
+22,Murder,"Criminal Group, Government Officials",2
+23,Crossfire,Paramilitary Group,2
+24,Murder,"Criminal Group, Local Residents",1
+25,Unknown,"Government Officials,Military Officials",1
+26,Unknown,Government Officials,1
+27,Murder,Unknown Fire,1
+28,Murder,"Political Group,Paramilitary Group",1
+29,Crossfire,"Political Group,Paramilitary Group",1
+30,Murder,"Paramilitary Group, Political Group",1
+31,Dangerous Assignment,"Criminal Group, Mob Violence",1
+32,Dangerous Assignment,"Government Officials,Political Group",1
+33,Murder,"Military Officials, Political Group",1
+34,Dangerous Assignment,"Local Residents,Government Officials",1
+35,Murder,"Local Residents,Government Officials",1
+36,Dangerous Assignment,"Local Residents,Military Officials",1
+37,Dangerous Assignment,"Military Officials,Paramilitary Group",1
+38,Murder,"Government Officials, Paramilitary Group",1
+39,Murder,"Government Officials, Military Officials",1
+40,Murder,"Government Officials, Local Residents",1
+41,Dangerous Assignment,Mob Violence,1
+42,Murder,"Criminal Group,Political Group,Government Officials",1
+43,Murder,"Criminal Group,Political Group",1
+44,Murder,"Criminal Group,Paramilitary Group",1
+45,Murder,"Criminal Group,Military Officials",1
+46,Crossfire,"Local Residents, Political Group",1
+47,Crossfire,Criminal Group,1
+48,Political Group,Iraq,135
+49,Military Officials,Syria,77
+50,Government Officials,Philippines,55
+51,Political Group,Somalia,47
+52,Military Officials,Israel and the Occupied Palestinian Territory,45
+53,Political Group,Afghanistan,40
+54,Criminal Group,Mexico,36
+55,Political Group,Pakistan,35
+56,Political Group,Syria,30
+57,Military Officials,Iraq,25
+58,Political Group,India,22
+59,Military Officials,Russia,21
+60,Military Officials,Ukraine,18
+61,Political Group,Algeria,18
+62,Government Officials,Brazil,18
+63,Criminal Group,India,16
+64,Criminal Group,Philippines,15
+65,Criminal Group,Brazil,15
+66,Paramilitary Group,Colombia,13
+67,Government Officials,Russia,12
+68,Political Group,Philippines,12
+69,Criminal Group,Russia,11
+70,Government Officials,Colombia,9
+71,Political Group,Colombia,8
+72,Government Officials,Mexico,8
+73,Unknown Fire,Israel and the Occupied Palestinian Territory,8
+74,Criminal Group,Colombia,7
+75,Criminal Group,Pakistan,7
+76,Unknown,Mexico,6
+77,Unknown,Iraq,6
+78,Government Officials,India,5
+79,Criminal Group,Somalia,5
+80,Government Officials,Syria,5
+81,Government Officials,Ukraine,5
+82,Military Officials,Pakistan,5
+83,Military Officials,Afghanistan,5
+84,Political Group,Russia,5
+85,Criminal Group,Honduras,4
+86,Unknown,Philippines,4
+87,Political Group,Israel and the Occupied Palestinian Territory,4
+88,Mob Violence,Somalia,4
+89,Paramilitary Group,Afghanistan,4
+90,"Criminal Group,Government Officials",Mexico,4
+91,Military Officials,Mexico,3
+92,Paramilitary Group,Iraq,3
+93,Military Officials,Somalia,3
+94,Government Officials,Pakistan,3
+95,"Military Officials, Political Group",Syria,2
+96,Political Group,Honduras,2
+97,Military Officials,Colombia,2
+98,Paramilitary Group,Somalia,2
+99,"Local Residents,Government Officials",India,2
+100,Criminal Group,Afghanistan,2
+101,Local Residents,Philippines,2
+102,"Government Officials,Criminal Group",Mexico,2
+103,Criminal Group,Iraq,2
+104,Unknown,Pakistan,2
+105,Unknown,Honduras,2
+106,Government Officials,Iraq,2
+107,Paramilitary Group,India,2
+108,Local Residents,Mexico,2
+109,Local Residents,Brazil,2
+110,Local Residents,Colombia,2
+111,Local Residents,India,2
+112,"Government Officials,Political Group",Afghanistan,2
+113,Political Group,Mexico,1
+114,"Paramilitary Group, Political Group",Colombia,1
+115,Unknown Fire,Colombia,1
+116,Unknown,Ukraine,1
+117,Unknown,Syria,1
+118,Paramilitary Group,Syria,1
+119,"Paramilitary Group,Political Group",Iraq,1
+120,Unknown,Russia,1
+121,Unknown,Colombia,1
+122,Political Group,Brazil,1
+123,"Political Group,Paramilitary Group",Syria,1
+124,"Political Group,Paramilitary Group",Iraq,1
+125,Unknown,Afghanistan,1
+126,"Local Residents,Military Officials",Colombia,1
+127,Mob Violence,Pakistan,1
+128,"Government Officials, Military Officials",Somalia,1
+129,"Criminal Group, Government Officials",Brazil,1
+130,"Criminal Group, Government Officials",Mexico,1
+131,"Criminal Group, Local Residents",India,1
+132,"Criminal Group, Mob Violence",Pakistan,1
+133,"Criminal Group,Government Officials",Brazil,1
+134,"Criminal Group,Local Residents",Brazil,1
+135,"Criminal Group,Local Residents",India,1
+136,"Criminal Group,Military Officials",Brazil,1
+137,"Criminal Group,Paramilitary Group",Mexico,1
+138,"Criminal Group,Political Group",Mexico,1
+139,"Criminal Group,Political Group,Government Officials",Brazil,1
+140,Government Officials,Afghanistan,1
+141,Government Officials,Honduras,1
+142,"Government Officials, Local Residents",Brazil,1
+143,"Government Officials, Paramilitary Group",Colombia,1
+144,Mob Violence,India,1
+145,"Government Officials,Criminal Group",Honduras,1
+146,"Government Officials,Criminal Group",India,1
+147,"Government Officials,Criminal Group",Philippines,1
+148,"Government Officials,Military Officials",Syria,1
+149,Local Residents,Afghanistan,1
+150,Local Residents,Honduras,1
+151,Local Residents,Iraq,1
+152,Local Residents,Somalia,1
+153,Local Residents,Ukraine,1
+154,"Local Residents, Political Group",Syria,1
+155,Military Officials,Philippines,1
+156,"Military Officials, Political Group",Iraq,1
+157,"Military Officials, Political Group",Pakistan,1
+158,"Military Officials,Paramilitary Group",Iraq,1
+159,Unknown Fire,Philippines,1

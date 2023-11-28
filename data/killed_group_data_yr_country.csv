@@ -1,0 +1,717 @@
+,year,country,counts
+0,1992,Algeria,1
+1,1992,Angola,1
+2,1992,Azerbaijan,1
+3,1992,Bosnia,8
+4,1992,Chad,3
+5,1992,Colombia,1
+6,1992,Croatia,1
+7,1992,Egypt,1
+8,1992,Haiti,1
+9,1992,India,3
+10,1992,Lebanon,2
+11,1992,Papua New Guinea,1
+12,1992,Peru,3
+13,1992,Philippines,4
+14,1992,Poland,1
+15,1992,Sudan,1
+16,1992,Tajikistan,10
+17,1992,Turkey,11
+18,1992,USA,1
+19,1992,Venezuela,1
+20,1993,Algeria,8
+21,1993,Angola,3
+22,1993,Argentina,1
+23,1993,Bosnia,9
+24,1993,Colombia,4
+25,1993,El Salvador,1
+26,1993,Georgia,3
+27,1993,Honduras,1
+28,1993,India,2
+29,1993,Lebanon,1
+30,1993,Lithuania,1
+31,1993,Peru,1
+32,1993,Philippines,3
+33,1993,Republic of Congo,1
+34,1993,Russia,8
+35,1993,Rwanda,1
+36,1993,Somalia,5
+37,1993,South Africa,1
+38,1993,Tajikistan,12
+39,1993,Turkey,4
+40,1993,USA,1
+41,1993,Venezuela,1
+42,1994,Afghanistan,1
+43,1994,Algeria,18
+44,1994,Angola,1
+45,1994,Belarus,1
+46,1994,Bosnia,7
+47,1994,Brazil,1
+48,1994,Burundi,1
+49,1994,Cambodia,3
+50,1994,Colombia,2
+51,1994,Democratic Republic of the Congo,2
+52,1994,Egypt,1
+53,1994,Guatemala,1
+54,1994,India,1
+55,1994,Iraq,1
+56,1994,Madagascar,1
+57,1994,Mexico,3
+58,1994,Pakistan,2
+59,1994,Russia,5
+60,1994,Rwanda,20
+61,1994,Serbia,1
+62,1994,Somalia,3
+63,1994,South Africa,2
+64,1994,Tajikistan,4
+65,1994,Turkey,2
+66,1995,Algeria,24
+67,1995,Angola,1
+68,1995,Azerbaijan,1
+69,1995,Bosnia,1
+70,1995,Brazil,4
+71,1995,Burundi,2
+72,1995,Canada,1
+73,1995,Colombia,3
+74,1995,Croatia,1
+75,1995,Dominican Republic,1
+76,1995,Guatemala,1
+77,1995,India,1
+78,1995,Mexico,1
+79,1995,Russia,11
+80,1995,Somalia,1
+81,1995,Tajikistan,1
+82,1995,Turkey,1
+83,1995,UK,1
+84,1995,Uganda,1
+85,1995,Ukraine,2
+86,1996,Algeria,7
+87,1996,Angola,1
+88,1996,Bangladesh,2
+89,1996,Cambodia,1
+90,1996,Colombia,1
+91,1996,Cyprus,1
+92,1996,Guatemala,2
+93,1996,India,2
+94,1996,Indonesia,1
+95,1996,Ireland,1
+96,1996,Nigeria,2
+97,1996,Philippines,2
+98,1996,Russia,7
+99,1996,Tajikistan,1
+100,1996,Turkey,1
+101,1996,Ukraine,1
+102,1996,Uzbekistan,1
+103,1997,Argentina,1
+104,1997,Brazil,2
+105,1997,Cambodia,3
+106,1997,Colombia,5
+107,1997,El Salvador,1
+108,1997,Guatemala,3
+109,1997,India,7
+110,1997,Indonesia,2
+111,1997,Iran,1
+112,1997,Mexico,3
+113,1997,Pakistan,1
+114,1997,Peru,1
+115,1997,Philippines,1
+116,1997,Russia,1
+117,1997,Sierra Leone,1
+118,1997,Ukraine,2
+119,1998,Afghanistan,1
+120,1998,Angola,1
+121,1998,Bangladesh,1
+122,1998,Brazil,2
+123,1998,Burkina Faso,1
+124,1998,Canada,1
+125,1998,Colombia,9
+126,1998,Ethiopia,2
+127,1998,Georgia,1
+128,1998,Iran,1
+129,1998,Mexico,2
+130,1998,Nigeria,2
+131,1998,Pakistan,1
+132,1998,Peru,2
+133,1998,Philippines,2
+134,1998,Republic of Congo,1
+135,1998,Russia,3
+136,1998,Rwanda,1
+137,1998,Sierra Leone,1
+138,1998,Thailand,1
+139,1999,Angola,1
+140,1999,Argentina,1
+141,1999,Colombia,7
+142,1999,East Timor,2
+143,1999,Guatemala,1
+144,1999,India,3
+145,1999,Ivory Coast,1
+146,1999,Lebanon,1
+147,1999,Myanmar,2
+148,1999,Nigeria,4
+149,1999,Pakistan,1
+150,1999,Russia,5
+151,1999,Sierra Leone,10
+152,1999,Sri Lanka,5
+153,1999,Tajikistan,1
+154,1999,Turkey,1
+155,1999,UK,1
+156,1999,Yugoslavia,6
+157,2000,Bangladesh,2
+158,2000,Brazil,1
+159,2000,Colombia,7
+160,2000,Georgia,1
+161,2000,Guatemala,1
+162,2000,Haiti,2
+163,2000,India,4
+164,2000,Israel and the Occupied Palestinian Territory,1
+165,2000,Kenya,1
+166,2000,Mexico,2
+167,2000,Mozambique,1
+168,2000,Nepal,1
+169,2000,Pakistan,1
+170,2000,Philippines,2
+171,2000,Russia,7
+172,2000,Sierra Leone,3
+173,2000,Somalia,1
+174,2000,Spain,1
+175,2000,Sri Lanka,1
+176,2000,USA,1
+177,2000,Ukraine,2
+178,2000,Uruguay,1
+179,2000,Yugoslavia,1
+180,2001,Afghanistan,9
+181,2001,Algeria,2
+182,2001,Bangladesh,2
+183,2001,Bolivia,1
+184,2001,Brazil,1
+185,2001,China,1
+186,2001,Colombia,8
+187,2001,Costa Rica,1
+188,2001,France,1
+189,2001,Georgia,1
+190,2001,Guatemala,1
+191,2001,Haiti,1
+192,2001,India,1
+193,2001,Israel and the Occupied Palestinian Territory,1
+194,2001,Kuwait,1
+195,2001,Latvia,1
+196,2001,Mexico,1
+197,2001,Pakistan,1
+198,2001,Paraguay,1
+199,2001,Philippines,4
+200,2001,Russia,2
+201,2001,Thailand,5
+202,2001,UK,1
+203,2001,USA,2
+204,2001,Ukraine,2
+205,2001,Yugoslavia,3
+206,2002,Armenia,1
+207,2002,Bangladesh,3
+208,2002,Belarus,1
+209,2002,Brazil,2
+210,2002,Colombia,9
+211,2002,India,3
+212,2002,Israel and the Occupied Palestinian Territory,3
+213,2002,Nepal,3
+214,2002,Pakistan,2
+215,2002,Philippines,2
+216,2002,Russia,4
+217,2002,Uganda,1
+218,2002,Venezuela,1
+219,2003,Belarus,1
+220,2003,Brazil,2
+221,2003,Cambodia,1
+222,2003,Colombia,6
+223,2003,Gabon,1
+224,2003,Guatemala,1
+225,2003,Honduras,1
+226,2003,India,3
+227,2003,Indonesia,2
+228,2003,Iran,1
+229,2003,Iraq,21
+230,2003,Israel and the Occupied Palestinian Territory,2
+231,2003,Ivory Coast,2
+232,2003,Japan,1
+233,2003,Kyrgyzstan,1
+234,2003,Nepal,2
+235,2003,Pakistan,1
+236,2003,Philippines,6
+237,2003,Russia,3
+238,2003,Somalia,1
+239,2003,Thailand,1
+240,2004,Bangladesh,4
+241,2004,Belarus,1
+242,2004,Brazil,3
+243,2004,Colombia,2
+244,2004,Dominican Republic,1
+245,2004,Gambia,1
+246,2004,Haiti,1
+247,2004,India,3
+248,2004,Iraq,38
+249,2004,Israel and the Occupied Palestinian Territory,1
+250,2004,Ivory Coast,1
+251,2004,Kazakhstan,1
+252,2004,Mexico,4
+253,2004,Montenegro,1
+254,2004,Nepal,1
+255,2004,Nicaragua,2
+256,2004,Pakistan,1
+257,2004,Peru,2
+258,2004,Philippines,11
+259,2004,Russia,2
+260,2004,Saudi Arabia,1
+261,2004,Sri Lanka,3
+262,2004,Ukraine,1
+263,2004,Venezuela,1
+264,2005,Azerbaijan,1
+265,2005,Bangladesh,2
+266,2005,Belarus,1
+267,2005,Brazil,1
+268,2005,Colombia,2
+269,2005,Democratic Republic of the Congo,1
+270,2005,Ecuador,1
+271,2005,Haiti,2
+272,2005,Iraq,27
+273,2005,Lebanon,2
+274,2005,Libya,1
+275,2005,Mexico,2
+276,2005,Nepal,1
+277,2005,Pakistan,2
+278,2005,Philippines,8
+279,2005,Russia,2
+280,2005,Serbia,1
+281,2005,Sierra Leone,1
+282,2005,Somalia,2
+283,2005,Sri Lanka,2
+284,2005,Thailand,2
+285,2006,Afghanistan,3
+286,2006,China,1
+287,2006,Colombia,3
+288,2006,Democratic Republic of the Congo,1
+289,2006,Ecuador,1
+290,2006,Guatemala,1
+291,2006,India,2
+292,2006,Indonesia,1
+293,2006,Iraq,56
+294,2006,Lebanon,2
+295,2006,Mexico,7
+296,2006,Nigeria,1
+297,2006,Pakistan,3
+298,2006,Philippines,8
+299,2006,Russia,5
+300,2006,Somalia,1
+301,2006,Sri Lanka,3
+302,2006,Sudan,1
+303,2006,Turkmenistan,1
+304,2006,Venezuela,2
+305,2007,Afghanistan,3
+306,2007,Brazil,1
+307,2007,China,1
+308,2007,Colombia,1
+309,2007,Democratic Republic of the Congo,2
+310,2007,El Salvador,1
+311,2007,Eritrea,2
+312,2007,Guatemala,1
+313,2007,Haiti,2
+314,2007,Honduras,1
+315,2007,India,3
+316,2007,Iraq,51
+317,2007,Israel and the Occupied Palestinian Territory,2
+318,2007,Kazakhstan,1
+319,2007,Kyrgyzstan,1
+320,2007,Mexico,7
+321,2007,Myanmar,1
+322,2007,Nepal,3
+323,2007,Pakistan,5
+324,2007,Paraguay,1
+325,2007,Peru,1
+326,2007,Philippines,3
+327,2007,Russia,2
+328,2007,Somalia,8
+329,2007,Sri Lanka,6
+330,2007,Turkey,1
+331,2007,USA,1
+332,2007,Zimbabwe,1
+333,2008,Afghanistan,2
+334,2008,Bolivia,1
+335,2008,Bulgaria,1
+336,2008,Cambodia,1
+337,2008,Croatia,2
+338,2008,Democratic Republic of the Congo,1
+339,2008,Dominican Republic,1
+340,2008,Georgia,3
+341,2008,Guatemala,2
+342,2008,India,5
+343,2008,Iraq,16
+344,2008,Israel and the Occupied Palestinian Territory,1
+345,2008,Kenya,1
+346,2008,Mexico,6
+347,2008,Nepal,1
+348,2008,Nigeria,2
+349,2008,Pakistan,6
+350,2008,Philippines,5
+351,2008,Russia,4
+352,2008,Somalia,2
+353,2008,Sri Lanka,2
+354,2008,Thailand,3
+355,2008,Venezuela,1
+356,2009,Afghanistan,3
+357,2009,Azerbaijan,1
+358,2009,Brazil,1
+359,2009,Colombia,3
+360,2009,Democratic Republic of the Congo,1
+361,2009,El Salvador,1
+362,2009,Gambia,1
+363,2009,Guatemala,2
+364,2009,Honduras,2
+365,2009,India,1
+366,2009,Indonesia,1
+367,2009,Iran,1
+368,2009,Iraq,4
+369,2009,Israel and the Occupied Palestinian Territory,1
+370,2009,Kazakhstan,1
+371,2009,Kenya,1
+372,2009,Madagascar,1
+373,2009,Mexico,8
+374,2009,Nepal,1
+375,2009,Nigeria,1
+376,2009,Pakistan,8
+377,2009,Philippines,38
+378,2009,Republic of Congo,1
+379,2009,Russia,5
+380,2009,Somalia,9
+381,2009,Sri Lanka,3
+382,2009,Turkey,1
+383,2009,Venezuela,1
+384,2010,Afghanistan,3
+385,2010,Angola,2
+386,2010,Argentina,1
+387,2010,Belarus,1
+388,2010,Brazil,1
+389,2010,Bulgaria,1
+390,2010,Cameroon,1
+391,2010,China,1
+392,2010,Colombia,2
+393,2010,Democratic Republic of the Congo,1
+394,2010,Greece,1
+395,2010,Honduras,9
+396,2010,India,3
+397,2010,Indonesia,3
+398,2010,Iraq,9
+399,2010,Lebanon,1
+400,2010,Mexico,10
+401,2010,Nepal,3
+402,2010,Nigeria,3
+403,2010,Pakistan,11
+404,2010,Philippines,3
+405,2010,Rwanda,1
+406,2010,Somalia,3
+407,2010,Thailand,2
+408,2010,Turkey,1
+409,2010,Uganda,2
+410,2010,Yemen,1
+411,2011,Afghanistan,2
+412,2011,Azerbaijan,1
+413,2011,Bahrain,2
+414,2011,Bolivia,1
+415,2011,Brazil,6
+416,2011,China,1
+417,2011,Colombia,1
+418,2011,Democratic Republic of the Congo,1
+419,2011,Dominican Republic,1
+420,2011,Egypt,2
+421,2011,El Salvador,1
+422,2011,Guatemala,1
+423,2011,Honduras,4
+424,2011,India,2
+425,2011,Iraq,7
+426,2011,Ivory Coast,2
+427,2011,Libya,6
+428,2011,Mexico,8
+429,2011,Nigeria,1
+430,2011,Pakistan,11
+431,2011,Panama,1
+432,2011,Paraguay,1
+433,2011,Peru,3
+434,2011,Philippines,5
+435,2011,Russia,1
+436,2011,Sierra Leone,1
+437,2011,Somalia,3
+438,2011,Syria,2
+439,2011,Thailand,1
+440,2011,Tunisia,1
+441,2011,Uganda,1
+442,2011,Venezuela,1
+443,2011,Vietnam,1
+444,2011,Yemen,3
+445,2012,Afghanistan,1
+446,2012,Bahrain,1
+447,2012,Bangladesh,3
+448,2012,Brazil,5
+449,2012,Cambodia,1
+450,2012,Colombia,2
+451,2012,Ecuador,1
+452,2012,Egypt,1
+453,2012,Honduras,1
+454,2012,India,4
+455,2012,Indonesia,1
+456,2012,Iran,1
+457,2012,Iraq,3
+458,2012,Israel and the Occupied Palestinian Territory,2
+459,2012,Lebanon,1
+460,2012,Mexico,6
+461,2012,Nepal,1
+462,2012,Nigeria,2
+463,2012,Pakistan,9
+464,2012,Philippines,5
+465,2012,Russia,1
+466,2012,Somalia,14
+467,2012,South Sudan,1
+468,2012,Syria,37
+469,2012,Tanzania,1
+470,2012,Thailand,1
+471,2013,Bangladesh,1
+472,2013,Brazil,4
+473,2013,Colombia,2
+474,2013,Egypt,7
+475,2013,Guatemala,2
+476,2013,Honduras,2
+477,2013,India,6
+478,2013,Iraq,12
+479,2013,Kenya,1
+480,2013,Libya,1
+481,2013,Mali,2
+482,2013,Mexico,3
+483,2013,Nigeria,1
+484,2013,Pakistan,8
+485,2013,Peru,1
+486,2013,Philippines,9
+487,2013,Russia,2
+488,2013,Somalia,5
+489,2013,Syria,32
+490,2013,Tanzania,1
+491,2014,Afghanistan,5
+492,2014,Bangladesh,3
+493,2014,Brazil,3
+494,2014,Cambodia,2
+495,2014,Central African Republic,1
+496,2014,Colombia,1
+497,2014,Democratic Republic of the Congo,2
+498,2014,Egypt,1
+499,2014,Guinea,3
+500,2014,Honduras,2
+501,2014,India,2
+502,2014,Iraq,6
+503,2014,Israel and the Occupied Palestinian Territory,7
+504,2014,Libya,1
+505,2014,Maldives,1
+506,2014,Mexico,3
+507,2014,Myanmar,1
+508,2014,Pakistan,7
+509,2014,Paraguay,3
+510,2014,Peru,1
+511,2014,Philippines,4
+512,2014,Somalia,4
+513,2014,South Africa,1
+514,2014,Syria,19
+515,2014,Turkey,1
+516,2014,Ukraine,7
+517,2014,Yemen,2
+518,2015,Azerbaijan,1
+519,2015,Bangladesh,6
+520,2015,Brazil,8
+521,2015,Burundi,1
+522,2015,Colombia,3
+523,2015,Democratic Republic of the Congo,1
+524,2015,France,9
+525,2015,Ghana,1
+526,2015,Guatemala,2
+527,2015,India,4
+528,2015,Iraq,6
+529,2015,Kenya,1
+530,2015,Libya,1
+531,2015,Mexico,5
+532,2015,Mozambique,1
+533,2015,Pakistan,2
+534,2015,Philippines,7
+535,2015,Poland,1
+536,2015,Somalia,3
+537,2015,South Sudan,7
+538,2015,Syria,16
+539,2015,Turkey,3
+540,2015,USA,2
+541,2015,Ukraine,1
+542,2015,Yemen,8
+543,2016,Afghanistan,6
+544,2016,Brazil,3
+545,2016,Democratic Republic of the Congo,1
+546,2016,El Salvador,1
+547,2016,Guatemala,1
+548,2016,Guinea,1
+549,2016,India,5
+550,2016,Iraq,11
+551,2016,Libya,3
+552,2016,Mexico,8
+553,2016,Myanmar,1
+554,2016,Pakistan,3
+555,2016,Peru,1
+556,2016,Philippines,3
+557,2016,Somalia,3
+558,2016,South Sudan,1
+559,2016,Syria,18
+560,2016,Turkey,2
+561,2016,USA,1
+562,2016,Ukraine,1
+563,2016,Yemen,6
+564,2017,Afghanistan,11
+565,2017,Bangladesh,1
+566,2017,Brazil,1
+567,2017,Colombia,1
+568,2017,Denmark,1
+569,2017,Dominican Republic,2
+570,2017,Honduras,4
+571,2017,India,5
+572,2017,Iraq,10
+573,2017,Maldives,1
+574,2017,Malta,1
+575,2017,Mexico,9
+576,2017,Myanmar,1
+577,2017,Nigeria,1
+578,2017,Pakistan,3
+579,2017,Paraguay,1
+580,2017,Philippines,3
+581,2017,Russia,2
+582,2017,Somalia,3
+583,2017,South Sudan,1
+584,2017,Syria,10
+585,2017,Turkey,1
+586,2017,Yemen,2
+587,2018,Afghanistan,16
+588,2018,Brazil,3
+589,2018,Bulgaria,1
+590,2018,Central African Republic,3
+591,2018,Colombia,3
+592,2018,Ethiopia,1
+593,2018,Guatemala,1
+594,2018,India,5
+595,2018,Indonesia,1
+596,2018,Israel and the Occupied Palestinian Territory,2
+597,2018,Libya,1
+598,2018,Mexico,11
+599,2018,Nicaragua,1
+600,2018,Pakistan,2
+601,2018,Philippines,4
+602,2018,Russia,1
+603,2018,Saudi Arabia,1
+604,2018,Sierra Leone,1
+605,2018,Slovakia,1
+606,2018,Somalia,7
+607,2018,Syria,9
+608,2018,USA,6
+609,2018,Yemen,8
+610,2019,Afghanistan,2
+611,2019,Brazil,2
+612,2019,Cameroon,1
+613,2019,Chad,1
+614,2019,Colombia,2
+615,2019,Democratic Republic of the Congo,1
+616,2019,Ghana,1
+617,2019,Haiti,2
+618,2019,Honduras,4
+619,2019,India,1
+620,2019,Iraq,2
+621,2019,Libya,1
+622,2019,Mexico,11
+623,2019,Nigeria,1
+624,2019,Pakistan,2
+625,2019,Peru,1
+626,2019,Philippines,3
+627,2019,Somalia,2
+628,2019,South Africa,1
+629,2019,Syria,7
+630,2019,UK,1
+631,2019,Ukraine,1
+632,2019,Yemen,1
+633,2019,Zambia,1
+634,2020,Afghanistan,6
+635,2020,Bangladesh,1
+636,2020,Barbados,1
+637,2020,Brazil,1
+638,2020,Colombia,2
+639,2020,Guatemala,2
+640,2020,Honduras,4
+641,2020,India,2
+642,2020,Iran,1
+643,2020,Iraq,3
+644,2020,Liberia,1
+645,2020,Mexico,9
+646,2020,Nigeria,3
+647,2020,Pakistan,1
+648,2020,Paraguay,1
+649,2020,Philippines,4
+650,2020,Somalia,1
+651,2020,Syria,4
+652,2020,Venezuela,1
+653,2020,Yemen,2
+654,2021,Afghanistan,4
+655,2021,Azerbaijan,2
+656,2021,Bangladesh,1
+657,2021,Burkina Faso,2
+658,2021,Colombia,1
+659,2021,Democratic Republic of the Congo,1
+660,2021,Ethiopia,2
+661,2021,Georgia,1
+662,2021,Greece,1
+663,2021,Haiti,1
+664,2021,India,5
+665,2021,Indonesia,1
+666,2021,Israel and the Occupied Palestinian Territory,1
+667,2021,Lebanon,1
+668,2021,Mexico,9
+669,2021,Myanmar,2
+670,2021,Netherlands,1
+671,2021,Pakistan,3
+672,2021,Philippines,3
+673,2021,Somalia,2
+674,2021,Yemen,1
+675,2022,Bangladesh,2
+676,2022,Brazil,2
+677,2022,Central African Republic,1
+678,2022,Chad,2
+679,2022,Chile,1
+680,2022,Colombia,2
+681,2022,Ecuador,1
+682,2022,Guatemala,1
+683,2022,Haiti,7
+684,2022,Honduras,2
+685,2022,India,2
+686,2022,Israel and the Occupied Palestinian Territory,1
+687,2022,Kazakhstan,1
+688,2022,Kenya,1
+689,2022,Mexico,13
+690,2022,Myanmar,2
+691,2022,Paraguay,1
+692,2022,Philippines,5
+693,2022,Somalia,2
+694,2022,Syria,1
+695,2022,Turkey,1
+696,2022,USA,1
+697,2022,Ukraine,15
+698,2022,Yemen,1
+699,2023,Afghanistan,1
+700,2023,Albania,1
+701,2023,Bangladesh,1
+702,2023,Cameroon,2
+703,2023,Colombia,1
+704,2023,Haiti,1
+705,2023,India,1
+706,2023,Israel and the Occupied Palestinian Territory,41
+707,2023,Lebanon,1
+708,2023,Lesotho,1
+709,2023,Mexico,1
+710,2023,Paraguay,1
+711,2023,Philippines,2
+712,2023,Rwanda,1
+713,2023,Sudan,1
+714,2023,USA,1
+715,2023,Ukraine,2
