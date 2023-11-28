@@ -28,7 +28,7 @@
 26,Syria,Dangerous Assignment,8
 27,Ukraine,Murder,8
 28,Honduras,Murder,8
-29,Syria,Unknown,6
+29,Syria,Unknown Death,6
 30,Ukraine,Dangerous Assignment,6
 31,Israel and the Occupied Palestinian Territory,Murder,4
 32,Pakistan,Crossfire,3
@@ -59,13 +59,13 @@
 57,Dangerous Assignment,Local Residents,3
 58,Dangerous Assignment,Criminal Group,3
 59,Crossfire,"Military Officials, Political Group",3
-60,Unknown,Military Officials,3
+60,Unknown Death,Military Officials,3
 61,Murder,"Criminal Group,Local Residents",2
 62,Murder,"Criminal Group, Government Officials",2
 63,Crossfire,Paramilitary Group,2
 64,Murder,"Criminal Group, Local Residents",1
-65,Unknown,"Government Officials,Military Officials",1
-66,Unknown,Government Officials,1
+65,Unknown Death,"Government Officials,Military Officials",1
+66,Unknown Death,Government Officials,1
 67,Murder,Unknown Fire,1
 68,Murder,"Political Group,Paramilitary Group",1
 69,Crossfire,"Political Group,Paramilitary Group",1
