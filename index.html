@@ -18,51 +18,70 @@
 </head>
 
 <body>
-    <div id="container">
-        <div class="title">Linechart: Journalist Killed in Each Country Overtime</div>
-        <div id="linechart"></div>
 
-        <div class="title">Dive in Journalist Killed Context</div>
-        <div id="sankey"></div>
-        <div id='map'>
-            <div id="map-legend">
-                <div class="map-legend-item">
-                    <div class="map-legend-color" style="background-color: #ffffff;"></div>
-                    <div class="map-legend-text">80 and above</div>
-                </div>
-                <div class="map-legend-item">
-                    <div class="map-legend-color" style="background-color: #fff8e8;"></div>
-                    <div class="map-legend-text">70 - 80</div>
-                </div>
-                <div class="map-legend-item">
-                    <div class="map-legend-color" style="background-color: #fcd581;"></div>
-                    <div class="map-legend-text">60 - 70</div>
-                </div>
-                <div class="map-legend-item">
-                    <div class="map-legend-color" style="background-color: #d52941;"></div>
-                    <div class="map-legend-text">40 - 60</div>
-                </div>
-                <div class="map-legend-item">
-                    <div class="map-legend-color" style="background-color: #720026;"></div>
-                    <div class="map-legend-text">0 - 40</div>
-                </div>
+    <body>
+        <div id="container">
+            <div id="cover-container">
+                <div class="title-cover">Journalist Killed</div>
+            </div>
+            <div id="linechart-container">
+                <!-- <div class="title">
+              Linechart: Journalist Killed in Each Country Overtime
+            </div> -->
+                <div id="linechart"></div>
+                <div class="description"></div>
             </div>
 
+            <div id="sankey-container">
+                <!-- <div class="title">Dive in Journalist Killed Context</div> -->
+                <div id="sankey"></div>
+                <div class="description"></div>
+            </div>
+
+            <div id="map-container">
+                <!-- <div class="title">map title</div> -->
+                <div id="map">
+                    <div id="map-legend">
+                        <div class="map-legend-item">
+                            <div class="map-legend-color" style="background-color: #ffffff"></div>
+                            <div class="map-legend-text">80 and above</div>
+                        </div>
+                        <div class="map-legend-item">
+                            <div class="map-legend-color" style="background-color: #fff8e8"></div>
+                            <div class="map-legend-text">70 - 80</div>
+                        </div>
+                        <div class="map-legend-item">
+                            <div class="map-legend-color" style="background-color: #fcd581"></div>
+                            <div class="map-legend-text">60 - 70</div>
+                        </div>
+                        <div class="map-legend-item">
+                            <div class="map-legend-color" style="background-color: #d52941"></div>
+                            <div class="map-legend-text">40 - 60</div>
+                        </div>
+                        <div class="map-legend-item">
+                            <div class="map-legend-color" style="background-color: #720026"></div>
+                            <div class="map-legend-text">0 - 40</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="description">
+                    <div id="slider-container">
+                        <input type="range" id="slider" min="2013" max="2023" step="1" value="2023" />
+                        <div class="year">2013</div>
+                    </div>
+                </div>
+
+
+            </div>
         </div>
-        <div id="slider-container">
-            <input type="range" id="slider" min="2002" max="2023" step="1" value="2023">
-        </div>
+
+        <script src="./js/sankey.js" type="module" async></script>
+        <script src="./js/linechart copy.js" type="module" async></script>
+        <script src="./js/worldmap.js" type="module" async></script>
 
 
 
-
-    </div>
-    <script src="./js/sankey.js" type="module" async></script>
-    <script src="./js/linechart copy.js" type="module" async></script>
-    <script src="./js/worldmap.js" type="module" async></script>
-
-
-
-</body>
+    </body>
 
 </html>
