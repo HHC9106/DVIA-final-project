@@ -1,12 +1,40 @@
 // set the dimensions and margins of the graph
-const margin = ({ top: 0, right: 0, bottom: 0, left: 0 })
-const width = document.querySelector("#sankey").clientWidth*.95;
-const height = document.querySelector("#sankey").clientHeight*.95;
+const margin = ({ top: 10, right: 0, bottom: 10, left: 20 })
+const width = document.querySelector("#sankey").clientWidth * .95;
+const height = document.querySelector("#sankey").clientHeight * .9;
+
+const countryDomain = ['Iraq', 'Philippines', 'Syria', 'Mexico', 'Pakistan', 'Colombia', 'India', 'Somalia', 'Russia', 'Afghanistan',
+    'Israel and the Occupied Palestinian Territory', 'Brazil', 'Algeria', 'Honduras', 'Ukraine'];
+
+const countryColors = {
+    'Iraq': '#1f77b4',
+    'Philippines': '#ff7f0e',
+    'Syria': '#2ca02c',
+    'Mexico': '#d62728',
+    'Pakistan': '#9467bd',
+    'Colombia': '#8c564b',
+    'India': '#e377c2',
+    'Somalia': '#7f7f7f',
+    'Russia': '#bcbd22',
+    'Afghanistan': '#17becf',
+    'Israel and the Occupied Palestinian Territory': '#ff9896',
+    'Brazil': '#aec7e8',
+    'Algeria': '#ffbb78',
+    'Honduras': '#98df8a',
+    'Ukraine': '#c5b0d5'
+};
+
+const CountryCategoricalScale = d3.scaleOrdinal()
+    .domain(countryDomain)
+    .range(countryDomain.map(country => countryColors[country]));
+// add designated color into range  
+
+const nodeColorScale = d3.scaleOrdinal(d3.schemeCategory10);
 
 // format variables
 var formatNumber = d3.format(",.0f"), // zero decimal places
-    format = function (d) { return formatNumber(d); },
-    color = d3.scaleOrdinal(d3.schemeCategory10);
+    format = function (d) { return formatNumber(d); }
+
 
 // append the svg object to the body of the page
 var svg = d3.select("#sankey")
@@ -70,7 +98,44 @@ d3.csv("./data/sankey_journalist.csv").then(function (data) {
         .enter().append("path")
         .attr("class", "link")
         .attr("d", d3.sankeyLinkHorizontal())
-        .attr("stroke-width", function (d) { return  +d.width });
+        .attr("stroke-width", function (d) { return +d.width });
+
+    // // add in the links
+    // var link = svg.append("g").selectAll(".link")
+    //     .data(graph.links)
+    //     .enter().append("g")
+    //     .attr("class", "link");
+
+    // // Create the gradient definition
+    // var gradient = link.append("linearGradient")
+    //     .attr("id", function (d, i) { return "gradient" + i; })
+    //     .attr("gradientUnits", "userSpaceOnUse")
+    //     .attr("x1", function (d) { return d.source.x1; })
+    //     .attr("x2", function (d) { return d.target.x0; });
+
+    // // Define the gradient stops
+    // gradient.append("stop")
+    //     .attr("offset", "0%")
+    //     .attr("stop-color", function (d) {
+    //         return nodeColorScale(d.source.name.replace(/ .*/, ""));
+    //     });
+
+    // gradient.append("stop")
+    //     .attr("offset", "80%")
+    //     .attr("stop-color", function (d) {
+    //         return nodeColorScale(d.target.name.replace(/ .*/, ""));
+    //     });
+
+    // // Draw the links using the gradient
+    // link.append("path")
+    //     .attr("class", "link")
+    //     .attr("d", d3.sankeyLinkHorizontal())
+    //     .attr("stroke-width", function (d) { return +d.width })
+    //     .style("fill", function (d, i) {
+    //         return "url(#gradient" + i + ")";
+    //     });
+
+
 
     // add the link titles
     link.append("title")
@@ -92,14 +157,20 @@ d3.csv("./data/sankey_journalist.csv").then(function (data) {
         .attr("height", function (d) { return d.y1 - d.y0; })
         .attr("width", sankey.nodeWidth())
         .style("fill", function (d) {
-            return d.color = color(d.name.replace(/ .*/, ""));
+            if (countryDomain.includes(d.name.replace(/ .*/, ""))) {
+                // Key is in the domain
+                return CountryCategoricalScale(d.name.replace(/ .*/, ""));
+            } else {
+                // Key is not in the domain
+                return nodeColorScale(d.name.replace(/ .*/, ""));
+            }
         })
-        .append("title")
+        .append("text")
         .text(function (d) {
             return d.name + "\n" + format(d.value);
         })
         .style("stroke", function (d) {
-            return d3.rgb(d.color).darker(2);
+            return d3.rgb(nodeColorScale(d.name.replace(/ .*/, ""))).darker(2);
         });
 
     // add in the title for the nodes

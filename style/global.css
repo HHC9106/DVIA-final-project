@@ -1,24 +1,29 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-
-#map {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    margin: auto auto;
+h1,
+h2,
+h3 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-
-.hidden {
-    display: none;
+title {
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 text {
-    font-size: 12pt;
-    font-weight: bold;
+    font-size: 9pt;
+    font-weight: medium;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.hidden {
+    display: none;
 }
 
 .container {
@@ -29,20 +34,34 @@ text {
     height: 100vh;
 }
 
-#sankey {
-    position: relative;
-    border: 10px solid rgb(128, 127, 122);
-    width: 100vw;
+#linechart {
+    display: flex;
+    border: 10px solid rgb(255, 225, 0);
+    width: 70vw;
     height: 100vh;
     /* margin-left: 50px; */
     opacity: 1;
     /* transition: opacity 250ms ease; */
 }
 
-#linechart {
-    display: flex;
-    border: 10px solid rgb(255, 225, 0);
-    width: 100vw;
+.line {
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+#sankey {
+    position: relative;
+    border: 10px solid rgb(128, 127, 122);
+    width: 70vw;
     height: 100vh;
     /* margin-left: 50px; */
     opacity: 1;
@@ -69,65 +88,85 @@ text {
     stroke-opacity: .5;
 }
 
-.line {
-    stroke: steelblue;
-    stroke-width: 2;
-    fill: none;
-}
-
-.axis path,
-.axis line {
-    fill: none;
-    stroke: grey;
-    stroke-width: 1;
-    shape-rendering: crispEdges;
-}
-
 .tooltip {
     position: absolute;
     text-align: center;
     padding: 5px;
     font: 14px sans-serif;
+    font-weight: medium;
     background: white;
     border: 10px;
     border-radius: 5px;
     pointer-events: none;
 }
 
+.container-map {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
 
 #map {
-    position: relative;
-    width: 90vw;
+    border: 1px solid rgb(128, 127, 122);
+    flex:1;
+    width: 70vw;
     height: 100vh;
+    left: 20px;
 }
 
 #map-legend {
     position: absolute;
-    bottom: 30px; /* Adjust the top position as needed */
-    right: 10px; /* Adjust the right position as needed */
+    bottom: 30px;
+    /* Adjust the top position as needed */
+    right: 10px;
+    /* Adjust the right position as needed */
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align items to the right side */
+    align-items: flex-start;
+    /* Align items to the right side */
     padding: 0;
     /* background-color: white; */
     /* border: 1px solid #ccc; */
     font-size: 9px;
-    z-index: 1; /* Ensure the legend appears above the map */
-  }
-  
-  .map-legend-item {
+    z-index: 1;
+    /* Ensure the legend appears above the map */
+}
+
+.map-legend-item {
     display: flex;
     align-items: center;
     /* margin-bottom: 5px; */
     /* border: 1px solid #ccc; */
-  }
-  
-  .map-legend-color {
+}
+
+.map-legend-color {
     width: 20px;
     height: 20px;
     margin-right: 5px;
-  }
-  
-  .map-legend-text {
-    white-space: nowrap; /* Prevent text from wrapping */
-  }
+}
+
+.map-legend-text {
+    white-space: nowrap;
+    /* Prevent text from wrapping */
+}
+
+.slider-container {
+    border: 1px solid yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    z-index:+1;
+}
+
+
+#slider {
+    transform: rotate(90deg);
+    width: 150px; /* Adjust the width based on your preference */
+}
+
+#slider-value {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
