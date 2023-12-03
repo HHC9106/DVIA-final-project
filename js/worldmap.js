@@ -15,8 +15,7 @@ let map = new mapboxgl.Map({
     maxZoom: 5, // Set the maximum allowed zoom level
 })
 
-// set initial year
-let yearToFilter = 2013;
+const year = document.querySelector(".year")
 
 const spike = (length, width = 7) => `M${-width / 2},0L0,${-length}L${width / 2},0`;
 
@@ -43,16 +42,72 @@ map.on('load', function () {
         .attr('stdDeviation', 4)
         .attr('flood-color', 'rgba(0, 0, 0, 0.6)');
 
-    let layerId = 'colormap';
+    // Add new source and layer
+    map.addSource("polygon", {
+        type: 'geojson',
+        data: {
+            type: "FeatureCollection",
+            features: []
+        },
+    });
+
+    map.addLayer({
+        id: "polygon",
+        type: 'fill',
+        source: "polygon",
+        layout: {},
+        paint: {
+            'fill-color': [
+                'step',
+                ['to-number', ['get', 'Score']],
+                '#720026',
+                50,
+                '#d52941',
+                60,
+                '#fcd581',
+                70,
+                '#fff8e8',
+                80,
+                '#ffffff',
+            ],
+            'fill-opacity': 0.5,
+        },
+    });
 
 
-    function updateMap() {
-        // Load GeoJSON data
-        d3.json('./vector/worldmap_centroid_deathyearcount.geojson')
-            .then((geojson) => {
+    d3.json('./vector/worldmap_centroid_deathyearcount.geojson')
+        .then((geojson) => {
+
+            let filteredYear = "all"
+            // Add slider
+            const slider = document.getElementById('slider');
+            const sliderValue = document.getElementById('slider-value');
+
+
+            slider.style.opacity = 0
+            slider.style.opacity = 1
+            slider.setAttribute('type', 'range');
+            slider.setAttribute('min', '2013');
+            slider.setAttribute('max', '2023');
+            slider.setAttribute('step', '1');
+            slider.setAttribute('value', '2013');
+
+            updateDeath(filteredYear);
+
+            slider.addEventListener('input', function () {
+                filteredYear = parseInt(this.value);
+                // sliderValue.innerHTML = yearToFilter; // or sliderValue.textContent = yearToFilter;
+                year.innerHTML = this.value
+                map.getSource("polygon").setData(`./vector/worldmap_freeIndex_${filteredYear}.geojson`)
+                updateDeath(filteredYear);
+  
+
+            });
+
+            function updateDeath(year) {
 
                 // Filter data for a specific year 
-                let filteredData = geojson.features.filter(d => d.properties.year === yearToFilter);
+                let filteredData = geojson.features.filter(d => d.properties.year === year);
 
                 // Define the projection function using Mapbox GL JS
                 function projectPoint(lon, lat) {
@@ -60,16 +115,6 @@ map.on('load', function () {
                     return [point.x, point.y];
                 }
 
-                // Remove existing layer if it exists
-                if (map.getLayer(layerId)) {
-                    map.removeLayer(layerId);
-                }
-
-                // Remove existing source if it exists
-                let sourceId = `indexmap_all_${yearToFilter}`;
-                if (map.getSource(sourceId)) {
-                    map.removeSource(sourceId);
-                }
 
                 // Remove existing SVG overlay
                 svg.selectAll('*').remove();
@@ -104,61 +149,24 @@ map.on('load', function () {
                             .style("opacity", 0);
                     });
 
+                ;
+            }
+
+            map.on('render', function () {
+                updateDeath(filteredYear)
                 // Reposition the SVG overlay when the map is resized
                 map.on('resize', function () {
-                    svg.attr('width', map._container.clientWidth)
+                    d3.select('#map svg')
+                        .attr('width', map._container.clientWidth)
                         .attr('height', map._container.clientHeight);
                 });
+            })
 
-                // Add new source and layer
-                map.addSource(sourceId, {
-                    type: 'geojson',
-                    data: `./vector/worldmap_freeIndex_${yearToFilter}.geojson`,
-                });
+        })
 
-                map.addLayer({
-                    id: layerId,
-                    type: 'fill',
-                    source: sourceId,
-                    layout: {},
-                    paint: {
-                        'fill-color': [
-                            'step',
-                            ['to-number', ['get', 'Score']],
-                            '#720026',
-                            50,
-                            '#d52941',
-                            60,
-                            '#fcd581',
-                            70,
-                            '#fff8e8',
-                            80,
-                            '#ffffff',
-                        ],
-                        'fill-opacity': 0.5,
-                    },
-                });
-            });
-    }
 
-    // Add slider
-    const slider = document.getElementById('slider');
-    const sliderValue = document.getElementById('slider-value');
 
-    slider.setAttribute('type', 'range');
-    slider.setAttribute('min', '2013');
-    slider.setAttribute('max', '2023');
-    slider.setAttribute('step', '1');
-    slider.setAttribute('value', '2013');
 
-    updateMap();
-
-    slider.addEventListener('input', function () {
-        yearToFilter = parseInt(this.value);
-        // Filter GeoJSON data for the selected year
-        console.log(yearToFilter);
-        updateMap();
-    });
 
     map.addControl(new mapboxgl.NavigationControl());
 });

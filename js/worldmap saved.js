@@ -165,6 +165,4 @@ map.on('load', function () {
     });
 
     map.addControl(new mapboxgl.NavigationControl());
-
-
 })
